@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  border-bottom: 1px dashed #fff;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.title {
+  font-size: 14px;
+  color: #fff;
+}
+
+.track {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-right: 100px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  margin-right: 20px;
+}
+
+.button {
+  padding: 2px 4px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.start,
+.stop {
+  padding: 3px 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #000;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.car {
+  position: absolute;
+  transform: translate(120px, 4px);
+  width: auto;
+  height: 35px;
+}
+
+.flag {
+  width: auto;
+  height: 40px;
+  fill: #c22929;
+}

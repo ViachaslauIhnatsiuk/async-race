@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 30px;
+  flex-shrink: 0;
+}
+
+.github {
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.year {
+  font-size: 24px;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+}

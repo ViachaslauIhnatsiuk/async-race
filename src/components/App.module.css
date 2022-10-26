@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 20px;
+  font-family: 'Montserrat';
+  min-height: 100vh;
+}

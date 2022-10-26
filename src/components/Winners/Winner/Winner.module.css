@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  justify-items: start;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.number,
+.wins,
+.best {
+  font-size: 15px;
+  color: #fff;
+}
+
+.name {
+  font-size: 13px;
+  color: #fff;
+}
+
+.car {
+  width: auto;
+  height: 24px;
+}
